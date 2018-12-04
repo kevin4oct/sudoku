@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level.LevelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="gotoMain"
+            android:text="第一关" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="第二关" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="第三关" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
